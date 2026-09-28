@@ -1,0 +1,20 @@
+generated: '2026-09-28'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.bindhq.com/pricing
+sources:
+- https://www.bindhq.com/pricing
+name: Bind pricing
+audience: business-product
+pricing_basis: tiered-subscription
+plans:
+- name: Foundation
+  price_text: $4,205 $3,622 /month (min. 10 users, tiered per user)
+  description: Perfect for Wholesale Brokers & Commercial Agents
+- name: Pro
+  price_text: $6,900 $6,210 /month (tiered by volume)
+  description: Best for Brokers, MGAs & Startup Programs
+- name: Enterprise
+  price_text: Custom pricing
+  description: Large MGAs, Program Administrators, and Carriers
+docs: https://www.bindhq.com/pricing

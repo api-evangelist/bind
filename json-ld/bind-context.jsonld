@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@vocab": "https://bindhq.com/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "bind": "https://bindhq.com/schema#",
+    "PostApiV2QuotesRequest": "bind:PostApiV2QuotesRequest",
+    "product": {
+      "@id": "bind:product",
+      "@type": "xsd:string"
+    },
+    "state": {
+      "@id": "bind:state",
+      "@type": "xsd:string"
+    },
+    "revenue": {
+      "@id": "bind:revenue",
+      "@type": "xsd:decimal"
+    },
+    "limit": {
+      "@id": "bind:limit",
+      "@type": "xsd:decimal"
+    },
+    "PostApiV2QuotesResponse": "bind:PostApiV2QuotesResponse",
+    "quote_id": {
+      "@id": "bind:quote_id",
+      "@type": "xsd:string"
+    },
+    "premium": {
+      "@id": "bind:premium",
+      "@type": "xsd:decimal"
+    },
+    "status": {
+      "@id": "bind:status",
+      "@type": "xsd:string"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Bind API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Bind's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-09-28) from openapi/_ae-authored/bind-openapi-generated.yml.",
+  "dcterms:created": "2026-09-28",
+  "dcterms:source": [
+    "openapi/_ae-authored/bind-openapi-generated.yml"
+  ]
+}

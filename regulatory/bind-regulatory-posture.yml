@@ -1,0 +1,36 @@
+generated: '2026-09-28'
+method: probed
+source: https://www.bindhq.com/legal/privacy-policy
+signals:
+  data_subject_request:
+    - url: https://www.bindhq.com/legal/privacy-policy
+      note: Users can request deletion of their data, fulfilling data subject request rights.
+      evidence:
+        - source: https://www.bindhq.com/legal/privacy-policy
+          http_status: 200
+          fetched: regulatory/bind-privacy-policy.html
+          quote: "You may also request early deletion of your Google user data at any time by emailing info@bindhq.com . We will honor verified requests within 30 days."
+  data_retention:
+    - url: https://www.bindhq.com/legal/privacy-policy
+      note: Retains data only as necessary, then deletes.
+      evidence:
+        - source: https://www.bindhq.com/legal/privacy-policy
+          http_status: 200
+          fetched: regulatory/bind-privacy-policy.html
+          quote: "Finally, we retain personal information only as long needed to provide the Services, satisfy legal or regulatory requirements, resolve disputes, and enforce our agreements, after which it is securely deleted or anonymized."
+  subprocessors:
+    - url: https://www.bindhq.com/legal/privacy-policy
+      note: Lists employees, contractors, affiliates as subprocessors.
+      evidence:
+        - source: https://www.bindhq.com/legal/privacy-policy
+          http_status: 200
+          fetched: regulatory/bind-privacy-policy.html
+          quote: "Owsy discloses potentially personally-identifying and personally-identifying information only to those of its employees, contractors, and affiliated organizations that need to know that information in order to process it on Owsy's behalf or to provide services..."
+  incident_notification:
+    - url: https://www.bindhq.com/legal/privacy-policy
+      note: Describes lawful disclosures, implying incident handling.
+      evidence:
+        - source: https://www.bindhq.com/legal/privacy-policy
+          http_status: 200
+          fetched: regulatory/bind-privacy-policy.html
+          quote: "Other than to its employees, contractors, and affiliated organizations, as described above, Owsy discloses potentially personally-identifying and personally-identifying information only when required to do so by law, or when Owsy believes in good faith that disclosure is reasonably necessary to protect the property or rights of Owsy, third parties, and the public at large."

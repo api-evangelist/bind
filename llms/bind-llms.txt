@@ -1,0 +1,42 @@
+# BindHQ
+
+> BindHQ is a cloud-based policy administration and operations platform for specialty insurance. It unifies underwriting, policy management, billing, accounting, and reporting in one system for MGAs, MGUs, program administrators, and wholesale brokers.
+
+BindHQ serves the specialty and excess & surplus (E&S) insurance market. The platform replaces fragmented legacy systems with a single integrated environment. It supports the full policy lifecycle from submission intake through accounting and compliance reporting. BindHQ offers API-first architecture for integrating with carriers, rating engines, data providers, and distribution partners.
+
+## Platform
+
+- [Platform Overview](https://www.bindhq.com/product): Full product walkthrough covering submission management, underwriting, policy issuance, accounting, and reporting capabilities.
+- [Composable Infrastructure](https://www.bindhq.com/composable-infrastructure): API-first architecture details, integration capabilities, and how BindHQ connects with carriers, rating engines, and third-party systems.
+- [Insurance API](https://www.bindhq.com/insurance-api): Technical overview of BindHQ's API for building custom integrations and automating insurance workflows.
+- [Custom Lines of Business](https://www.bindhq.com/custom-lines-of-business): How BindHQ supports configurable lines of business for specialty insurance programs.
+
+## Solutions
+
+- [Solutions Overview](https://www.bindhq.com/solutions): How BindHQ serves different roles in specialty insurance distribution, including MGAs, program administrators, and wholesale brokers.
+- [AMS for Wholesale Brokers](https://www.bindhq.com/ams-for-wholesalers): Agency management system for wholesale brokers, covering submission tracking, quote comparison, accounting, and agent portal.
+- [Delegated Authority](https://www.bindhq.com/delegated-authority): Tools for managing delegated underwriting authority, including binding authority, bordereaux reporting, and carrier compliance.
+- [Digital Distribution](https://www.bindhq.com/digital-distribution): Capabilities for exposing insurance products via APIs, portals, and mobile applications.
+
+## Company
+
+- [About Us](https://www.bindhq.com/about-us): Company background, team, and mission.
+- [Case Studies](https://www.bindhq.com/case-studies): Real-world examples of MGAs and wholesalers using BindHQ, including implementation timelines and outcomes.
+- [Blog](https://www.bindhq.com/blog): Research-led insights on specialty insurance operations, technology, and strategy.
+- [Partners](https://www.bindhq.com/partners): Technology and service partner ecosystem.
+- [Careers](https://www.bindhq.com/careers): Open roles and company culture.
+
+## Optional
+
+- [Pricing](https://www.bindhq.com/pricing): Foundation, Pro, and Enterprise plan details with feature comparison.
+- [Contact](https://www.bindhq.com/contact-us): Request a demo or reach the sales team.
+- [Terms of Use](https://www.bindhq.com/legal/terms-of-use): Legal terms governing use of BindHQ.
+- [Privacy Policy](https://www.bindhq.com/legal/privacy-policy): Data handling and privacy practices.
+- [Cookie Policy](https://www.bindhq.com/legal/cookie-policy): Cookie usage details.
+- [Google API Disclosure](https://www.bindhq.com/legal/google-api-disclosure): Google API usage disclosure.
+
+## Contact
+
+- Phone: 844-424-6347
+- Email: sales@bindhq.com
+- LinkedIn: https://www.linkedin.com/company/bindhq/

@@ -1,0 +1,34 @@
+generated: '2026-09-28'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/_ae-authored/bind-openapi-generated.yml
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: 'No MCP server was found. The pre-flight posted tools/list to /mcp on api.bindhq.com, www.bindhq.com, support.bindhq.com; verdict opaque
+  (https://support.bindhq.com/mcp answered 403: the edge authenticates before it routes, which proves nothing either way). Candidate tools below
+  are derived from the 4 operation(s) in the provider''s own OpenAPI (4 listed); they describe what a server WOULD expose, not one that exists.'
+tools:
+- name: get_api_v2_policies_id
+  operationId: get_api_v2_policies_id
+  method: GET
+  path: /api/v2/policies/{id}
+  description: Retrieve policy details, endorsements, and documents
+- name: put_api_v2_policies_id_endorse
+  operationId: put_api_v2_policies_id_endorse
+  method: PUT
+  path: /api/v2/policies/{id}/endorse
+  description: Process mid-term endorsement with premium adjustment
+- name: post_api_v2_quotes
+  operationId: post_api_v2_quotes
+  method: POST
+  path: /api/v2/quotes
+  description: Let partners quote and bind programmatically
+- name: get_api_v2_reports_bordereaux
+  operationId: get_api_v2_reports_bordereaux
+  method: GET
+  path: /api/v2/reports/bordereaux
+  description: Generate and retrieve bordereaux reports by carrier

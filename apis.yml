@@ -1,23 +1,116 @@
 aid: bind
+
 name: Bind
-description: 'Bind is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://framerusercontent.com/images/8UlogeRvnNxYazVcp56Y4cn7Zx4.png
+
+description: BindHQ provides a composable insurance infrastructure platform for specialty insurers, MGAs, and brokers. Their APIs enable policy
+  administration, underwriting, rating, and data access through a headless architecture, supporting digital distribution, delegated authority
+  operations, and integration with carrier reporting systems. The platform offers flexible, scalable solutions for managing insurance products
+  and automating workflows via modern API-driven services.
+
 url: https://raw.githubusercontent.com/api-evangelist/bind/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Insurance API documentation is a JavaScript‑rendered Framer site with no machine‑readable OpenAPI spec discovered.
+  evidence:
+  - url: https://www.bindhq.com/insurance-api
+    status: 200
+  checked: '2026-09-28'
+
 specificationVersion: '0.20'
+
 created: '2026-09-28'
+
 modified: '2026-09-28'
+
 tags:
-- Company
-apis: []
+- Insurance
+- Platform
+- API
+- Composable
+- Specialty
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/bind-plans-pricing.yml
+- type: Spectral
+  url: rules/bind-rules.yml
+- type: JSONLD
+  url: json-ld/bind-context.jsonld
+- type: Vocabulary
+  url: vocabulary/bind-vocabulary.yml
+- type: DataModel
+  url: data-model/bind-data-model.yml
+- type: Conformance
+  url: conformance/bind-conformance.yml
+- type: LLMsTxt
+  url: llms/bind-llms.txt
+- type: Hosts
+  url: hosts/bind-hosts.yml
+- type: Vendors
+  url: vendors/bind-vendors.yml
+- type: DomainSecurity
+  url: security/bind-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/bind_stock/
+  url: https://www.bindhq.com
+- type: Documentation
+  url: https://www.bindhq.com/portal
+- type: APIReference
+  url: https://www.bindhq.com/insurance-api
+- type: GettingStarted
+  url: https://www.bindhq.com/insurance-api
+- type: Support
+  url: https://support.bindhq.com/
+- type: Blog
+  url: https://www.bindhq.com/blog
+- type: Pricing
+  url: https://www.bindhq.com/pricing
+- type: TermsOfService
+  url: https://www.bindhq.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.bindhq.com/legal/privacy-policy
+
+apis:
+- name: Insurance API
+  description: BindHQ Insurance API provides programmatic access to insurance platform features.
+  humanURL: https://www.bindhq.com/insurance-api
+  baseURL: null
+  method: derived
+  source: https://www.bindhq.com/insurance-api
+  aid: bind:insurance-api
+- aid: bind:bind-api
+  name: Bind API
+  description: 'Bind API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-09-28); not the
+
+    provider''s own document.'
+  humanURL: https://www.bindhq.com/digital-distribution
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/bind-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/bind-post-api-v2-quotes-request-schema.json
+  - type: JSONSchema
+    url: json-schema/bind-post-api-v2-quotes-response-schema.json
+x-enrichment:
+  date: '2026-09-28'
+  status: enriched
+  artifacts_added: 18
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

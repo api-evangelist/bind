@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/bind/main/json-schema/bind-post-api-v2-quotes-response-schema.json",
+  "title": "PostApiV2QuotesResponse",
+  "x-generated": "2026-09-28",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/bind-openapi-generated.yml#/components/schemas/PostApiV2QuotesResponse",
+  "type": "object",
+  "properties": {
+    "quote_id": {
+      "type": "string"
+    },
+    "premium": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}
