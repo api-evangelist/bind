@@ -1,0 +1,71 @@
+openapi: 3.2.0
+info:
+  title: Bind Quotes API
+  version: '2026-09-28'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-09-28: 4 operation(s) read from 2 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Bind has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 4
+    pages-with-code: 0
+    pages-read: 2
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-09-28'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://www.bindhq.com/digital-distribution
+  - https://www.bindhq.com/composable-infrastructure
+tags:
+- name: Quotes
+paths:
+  /api/v2/quotes:
+    post:
+      operationId: post_api_v2_quotes
+      tags:
+      - Quotes
+      summary: Let partners quote and bind programmatically
+      x-source: https://www.bindhq.com/digital-distribution
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostApiV2QuotesRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostApiV2QuotesResponse'
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    PostApiV2QuotesResponse:
+      type: object
+      properties:
+        quote_id:
+          type: string
+        premium:
+          type: number
+        status:
+          type: string
+    PostApiV2QuotesRequest:
+      type: object
+      properties:
+        product:
+          type: string
+        state:
+          type: string
+        revenue:
+          type: number
+        limit:
+          type: number
+      required:
+      - product
+      - state
+      - revenue
+      - limit

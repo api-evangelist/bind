@@ -94,16 +94,41 @@ apis:
   method: derived
   source: https://www.bindhq.com/insurance-api
   aid: bind:insurance-api
-- aid: bind:bind-api
-  name: Bind API
-  description: 'Bind API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-09-28); not the
-
-    provider''s own document.'
-  humanURL: https://www.bindhq.com/digital-distribution
+- aid: bind:bind-policies-api
+  name: Bind Policies API
+  description: The Policies API from Bind — 2 operation(s) for policies.
+  humanURL: https://www.bindhq.com/insurance-api
+  tags:
+  - Policies
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/bind-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/bind-policies-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/bind-post-api-v2-quotes-request-schema.json
+  - type: JSONSchema
+    url: json-schema/bind-post-api-v2-quotes-response-schema.json
+- aid: bind:bind-quotes-api
+  name: Bind Quotes API
+  description: The Quotes API from Bind — 1 operation(s) for quotes.
+  humanURL: https://www.bindhq.com/insurance-api
+  tags:
+  - Quotes
+  properties:
+  - type: OpenAPI
+    url: openapi/bind-quotes-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/bind-post-api-v2-quotes-request-schema.json
+  - type: JSONSchema
+    url: json-schema/bind-post-api-v2-quotes-response-schema.json
+- aid: bind:bind-reports-api
+  name: Bind Reports API
+  description: The Reports API from Bind — 1 operation(s) for reports.
+  humanURL: https://www.bindhq.com/insurance-api
+  tags:
+  - Reports
+  properties:
+  - type: OpenAPI
+    url: openapi/bind-reports-api-openapi.yml
   - type: JSONSchema
     url: json-schema/bind-post-api-v2-quotes-request-schema.json
   - type: JSONSchema

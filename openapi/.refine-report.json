@@ -1,0 +1,27 @@
+{
+  "provider": "bind",
+  "sources": [
+    "_ae-authored/bind-openapi-generated.yml"
+  ],
+  "outputs": [
+    "bind-policies-api-openapi.yml",
+    "bind-quotes-api-openapi.yml",
+    "bind-reports-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "bind-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "bind-openapi-generated.yml: tagged paths GET /api/v2/policies/{id} -> Policies",
+    "bind-openapi-generated.yml: tagged paths PUT /api/v2/policies/{id}/endorse -> Policies",
+    "bind-openapi-generated.yml: tagged paths POST /api/v2/quotes -> Quotes",
+    "bind-openapi-generated.yml: tagged paths GET /api/v2/reports/bordereaux -> Reports",
+    "bind-openapi-generated.yml: declared missing tag: Policies",
+    "bind-openapi-generated.yml: declared missing tag: Quotes",
+    "bind-openapi-generated.yml: declared missing tag: Reports",
+    "apis.yml register: written (+3 apis, 4 total)"
+  ],
+  "skipped": []
+}
