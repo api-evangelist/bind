@@ -44,15 +44,6 @@ paths:
         kind: documentation
 components:
   schemas:
-    PostApiV2QuotesResponse:
-      type: object
-      properties:
-        quote_id:
-          type: string
-        premium:
-          type: number
-        status:
-          type: string
     PostApiV2QuotesRequest:
       type: object
       properties:
@@ -69,3 +60,12 @@ components:
       - state
       - revenue
       - limit
+    PostApiV2QuotesResponse:
+      type: object
+      properties:
+        quote_id:
+          type: string
+        premium:
+          type: number
+        status:
+          type: string

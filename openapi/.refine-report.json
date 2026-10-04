@@ -21,7 +21,11 @@
     "bind-openapi-generated.yml: declared missing tag: Policies",
     "bind-openapi-generated.yml: declared missing tag: Quotes",
     "bind-openapi-generated.yml: declared missing tag: Reports",
-    "apis.yml register: written (+3 apis, 4 total)"
+    "apis.yml register: already-registered"
   ],
-  "skipped": []
+  "skipped": [
+    "bind-policies-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "bind-quotes-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "bind-reports-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
