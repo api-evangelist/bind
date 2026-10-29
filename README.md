@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bind is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/bind_stock/
+BindHQ provides a composable insurance infrastructure platform for specialty insurers, MGAs, and brokers. Their APIs enable policy administration, underwriting, rating, and data access through a headless architecture, supporting digital distribution, delegated authority operations, and integration with carrier reporting systems. The platform offers flexible, scalable solutions for managing insurance products and automating workflows via modern API-driven services.
+
+**Areas:** Insurance · Platform · Composable · Specialty
+
+## Bind on APIs.io
+
+Everything profiled for Bind is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bind/](https://apis.io/providers/bind/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Insurance API](https://apis.io/apis/bind/insurance-api/) — BindHQ Insurance API provides programmatic access to insurance platform features.
+- [Bind Policies API](https://apis.io/apis/bind/bind-policies-api/) — The Policies API from Bind — 2 operation(s) for policies.
+- [Bind Quotes API](https://apis.io/apis/bind/bind-quotes-api/) — The Quotes API from Bind — 1 operation(s) for quotes.
+- [Bind Reports API](https://apis.io/apis/bind/bind-reports-api/) — The Reports API from Bind — 1 operation(s) for reports.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [bind-mcp.yml](https://apis.io/servers/bind/bind-mcp-yml/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PostApiV2QuotesRequest](https://apis.io/schemas/bind/bind-post-api-v2-quotes-request/)
+- [PostApiV2QuotesResponse](https://apis.io/schemas/bind/bind-post-api-v2-quotes-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bind Context](https://apis.io/jsonld/bind/bind-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Bind API Rules](https://apis.io/rules/bind/bind-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bind Domain Security](https://apis.io/security/bind/bind-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bind Plans Pricing](https://apis.io/plans/bind/bind-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bindhq.com)
+- [Documentation](https://www.bindhq.com/portal)
+- [Getting started](https://www.bindhq.com/insurance-api)
+- [API reference](https://www.bindhq.com/insurance-api)
+- [Pricing](https://www.bindhq.com/pricing)
+- [Support](https://support.bindhq.com/)
+- [Blog](https://www.bindhq.com/blog)
+- [Terms of service](https://www.bindhq.com/legal/terms-of-use)
+- [Privacy policy](https://www.bindhq.com/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 32.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 18.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 63.2 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bind/](https://apis.io/providers/bind/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bind: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bind/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
